@@ -19,10 +19,12 @@ Este código foi feito para ser compartilhado! A estrutura base (tabelas de list
 Para que este template evolua e ajude todos os grupos da disciplina, a colaboração de todos é muito bem-vinda! Se você ou seu grupo criaram um componente útil (como um modal de confirmação de exclusão) ou corrigiram um bug genérico, compartilhe com o repositório principal.
 
 **Fluxo de contribuição:**
-1. **Abra uma Issue:** Antes de começar a codar, crie uma *Issue* descrevendo a melhoria, o bug ou a nova feature. Isso ajuda a segmentar o trabalho e avisa os colegas sobre o que está sendo feito.
-2. **Crie uma Branch:** Evite commitar direto na `main`. Trabalhe em uma branch separada seguindo um padrão claro (ex: `feature/modal-bonito` ou `fix/erro-no-fetch`).
+1. **Abra uma Issue:** Antes de começar a codar, crie uma *Issue* descrevendo a melhoria, o bug ou a nova feature. Isso ajuda a segmentar o trabalho e avisa os colegas sobre o que está sendo feito. Caso seja a implementação/debate/sugestão correspondente a uma *Issue* já existente, você deve adiconar comentários na *Issue* e sempre referenciar nos Pull Requests. 
+2. **Crie uma Branch:** Trabalhe em uma branch (criada a partir da branch `develop`) separada seguindo um padrão claro (ex: `feature/modal-bonito` ou `fix/erro-no-fetch`).
 3. **Faça o Commit:** Faça commits claros, objetivos e, se necessário, use o `git commit --amend` para manter o histórico limpo antes de enviar.
-4. **Abra um Pull Request (PR):** Faça o push da sua branch e abra um PR para a `main`. Descreva brevemente o que foi feito e referencie a Issue original (ex: "Resolve #3").
+4. **Abra um Pull Request (PR):** Faça o push da sua branch e abra um PR para a `develop`. Descreva brevemente o que foi feito e referencie a Issue original (ex: "Resolve #3").
+
+**OBS.:** Só será feito merge na `main` na conclusão do projeto, procure a branch `develop`
 
 **Padrão de Commits e PRs:**
 Não há critérios rígidos e obrigatórios de formatação para os commits ou descrições de Pull Requests neste repositório. A regra de ouro é: **seja claro e simples de entender**. 
