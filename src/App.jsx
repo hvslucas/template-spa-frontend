@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './components/Header';
 import Home from './pages/Home';
+import ClientesList from './pages/ClientesList';
 
 // Componente de Layout para manter o Header fixo
 const Layout = () => (
@@ -10,7 +11,6 @@ const Layout = () => (
     <Container className="mt-4">
       <Row>
         <Col>
-          {/* O Outlet renderiza o conteúdo da rota atual */}
           <Outlet />
         </Col>
       </Row>
@@ -24,7 +24,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          {/* Outras rotas entrariam aqui */}
+          {/* Adicione a rota para a lista de clientes aqui */}
+          <Route path="clientes" element={<ClientesList />} />
         </Route>
       </Routes>
     </Router>
